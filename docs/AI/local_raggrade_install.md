@@ -1,3 +1,5 @@
+{{ site.navigation }} 
+
 ### 下载和说明地址：
 
 >https://microsoft.github.io/graphrag/posts/get_started/
