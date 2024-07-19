@@ -1,6 +1,6 @@
 <nav>
   <ul class="menu">
-    {% for item in site.data.navigation.main %}
+    {% for item in site.data.navigationsub.main %}
       <li class="{% if item.subnav %}has-children{% endif %}">
         <a href="{{ item.url }}">{{ item.title }}</a>
         {% if item.subnav %}
