@@ -1,21 +1,15 @@
----
-title: RAG的本地化
-description: desc
-twitter:
-  username: sh_robot
-  card: 
----
+### 下载和说明地址：
 
-下载和说明地址：
+>https://microsoft.github.io/graphrag/posts/get_started/
 
-https://microsoft.github.io/graphrag/posts/get_started/
-安装命令
-
+### 安装命令
+'''
 //安装 graphrag
 pip3 install graphrag
 //配置setting文件中的的大模型KEY
 export GRAPHRAG_API_KEY=<CHATGTP-KEY>
-
+'''
+### 执行
 //1.运行索引器
 mkdir -p ./ragtest/input
 //2.下载数据集
@@ -35,7 +29,7 @@ python3 -m graphrag.index --root ./ragtest
 output\{run_id}\reports\logs.json
 使用本地LM-studio运行的模型
 
-####参考的settings.ymal文件
+###  参考的settings.ymal文件
 
 encoding_model: cl100k_base
 skip_workflows: []
@@ -57,5 +51,6 @@ embeddings:
     type: openai_embedding # or azure_openai_embedding
     model: text-embedding-3-small
     # api_base: https://<instance>.openai.azure.com
-调用服务
+
+### 调用服务
 
