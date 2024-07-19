@@ -245,23 +245,6 @@ kbd {
 }
 
 /* Additional GFM specific styles can be added here */
-.menu > li.has-children {
-  position: relative;
-}
-
-.menu > li.has-children > ul {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #fff;
-  padding: 0;
-  margin: 0;
-}
-
-.menu > li.has-children:hover > ul {
-  display: block;
-}
 
 .dropdown-menu {
   display: none;
