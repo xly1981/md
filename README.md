@@ -1,7 +1,3 @@
----
-layout: default
-title: About Page
----
 # About Us
 2024-7-19 from this day!
 
