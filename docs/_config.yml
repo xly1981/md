@@ -1,8 +1,6 @@
 plugins:
-  - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-toc
-  - jekyll-navigation
   
 baseurl: "/md"
 url: "https://xly1981.github.io"
