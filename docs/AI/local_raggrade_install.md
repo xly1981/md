@@ -1,3 +1,11 @@
+---
+title: RAG的本地化
+description: desc
+twitter:
+  username: sh_robot
+  card: 
+---
+
 下载和说明地址：
 
 https://microsoft.github.io/graphrag/posts/get_started/
