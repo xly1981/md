@@ -1,4 +1,7 @@
-{{ site.navigation }} 
+---
+layout: default
+title: About Page
+---
 
 ### 下载和说明地址：
 
