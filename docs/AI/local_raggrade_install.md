@@ -38,13 +38,13 @@ llm:
   type:  openai_chat # or azure_openai_chat
   model: Qwen/Qwen2-7B-Instruct-GGUF
   model_supports_json: true # recommended if this is available for your model.
-  # max_tokens: 4000
-  # request_timeout: 180.0
+  #max_tokens: 4000
+  #request_timeout: 180.0
   api_base: http://localhost:1234/v1/
-  # ......
+  #......
   
 embeddings:
-  ## parallelization: override the global parallelization settings for embeddings
+  ##parallelization: override the global parallelization settings for embeddings
   async_mode: threaded # or asyncio
   llm:
     api_key: lm-studio
