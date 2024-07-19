@@ -1,7 +1,6 @@
----
-layout: default
-title: About Page
----
+<!-- TOC -->
+* [TOC]
+:toc:
 
 ### 下载和说明地址：
 
