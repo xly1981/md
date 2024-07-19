@@ -1,7 +1,8 @@
 <nav>
   <ul>
-  {% for nav_item in site.data._data/navigation %}
-    <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
-  {% endfor %}
+    {% site.data_dir %}
+    {% for nav_item in site.data._data/navigation %}
+      <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+    {% endfor %}
   </ul>
 </nav>
