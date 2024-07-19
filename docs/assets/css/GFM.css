@@ -54,6 +54,15 @@ header {
   color: #50bfa0;
 }
 
+/* 内容区域 */
+.content {
+  min-height: 400px;
+  float: right;
+  width: 80%;
+  padding: 10px;
+  background: #ffffff;
+}
+
 /* GitHub Flavored Markdown (GFM) Style */
 
 body {
