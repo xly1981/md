@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+
+  <div class="sidebar">
+    <!-- 导航菜单 -->
+    {% include sidebar.html %}
+  </div>
+
+  <div class="content">
+    <!-- 页面内容 -->
+    {{ content }}
+  </div>
+
+</body>
+</html>
