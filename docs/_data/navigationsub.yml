@@ -5,7 +5,7 @@ main:
     url: "/about/"
   - title: "Resources"
     url: "#"
-    subnav:
+    sub_menu:
       - title: "Tutorials"
         url: "/resources/tutorials/"
       - title: "Books"
