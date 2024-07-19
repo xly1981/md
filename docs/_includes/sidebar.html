@@ -1,11 +1,6 @@
 <nav>
   <ul>
     {{ site.data_dir }}
-    {{ site.data.navigation }}
-    {% for nav_item in site.data._data/navigation %}
-      <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
-    {% endfor %}
-
     {% for nav_item in site.data.navigation.navigation %}
       <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
     {% endfor %}
