@@ -11,3 +11,11 @@ title: SH_ROBOT的网站
 description: FROM IT TO AI.
 twitter:
   username: Sh_robot
+
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
